@@ -1,0 +1,27 @@
+---
+abstract: 'interface with KOBO eReader'
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Device-KOBOeReader
+provides:
+  Device::KOBOeReader:
+    file: lib/Device/KOBOeReader.pm
+    version: 0.0101
+requires:
+  Carp: 1.11
+  DBD::SQLite: 1.29
+  DBI: 1.609
+  File::Copy: 2.14
+  File::Spec::Functions: 3.33
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0101
